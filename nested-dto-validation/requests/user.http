@@ -1,0 +1,27 @@
+### User registration flow
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Kumar Sunil",
+  "email": "sunil.kumar@example.com",
+  "type": "user",
+  "addresses": [
+    {
+      "street": "123 Street",
+      "city": "City 1",
+      "location": {
+        "lat": 123.45,
+        "lng": 67.89
+      }
+    },
+    {
+      "street": "456 Street",
+      "city": "City 2",
+      "location": {
+        "lat": 12.34,
+        "lng": 56.78
+      }
+    }
+  ]
+}
