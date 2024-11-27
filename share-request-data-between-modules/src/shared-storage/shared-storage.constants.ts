@@ -1,0 +1,1 @@
+export const SHARED_STORAGE = 'SHARED_STORAGE';
